@@ -36,19 +36,17 @@
           </div>
           <ul class="nav__links">
             <li><a href="#event" class="nav__link">Receitas</a></li>
+            <li><a href="#staff" class="nav__link">Cardápio</a></li>
             <li>
-              <a href="#staff" class="nav__link">Cardápio</a>
-            </li>
-            <li>
-              <a href="#membership" class="nav__link">Reservar uma mesa </a>
+              <a href="#membership" class="nav__link">Reservar uma mesa</a>
             </li>
             <li><a href="#footer" class="nav__link">Contatos</a></li>
           </ul>
         </nav>
         <div class="header__content">
           <h1 class="header__title">
-            <span class="header__span-accent">Café especial</span>
-            na biblioteca Triple Peaks
+            <span class="header__span-accent">Café especial</span> na biblioteca
+            Triple Peaks
           </h1>
           <p class="header__description">
             Bem-vindo à nossa zona de estudo! Temos aquele cafezinho para
@@ -58,8 +56,7 @@
         </div>
         <img
           src="./images/inside_coffee_shop.png"
-          alt="Ilustraçao Inside
-        coffeeshop"
+          alt="Ilustração Inside coffeeshop"
           class="header__image"
         />
         <div class="header__footer">
@@ -122,22 +119,66 @@
       </main>
       <footer id="footer" class="footer"></footer>
     </div>
-  </div>
-  <div class="reservation">
-  <h1 class="reservation__title">Reservar uma mesa</h1>
-  <form class="reservation__form form">
-    <fieldset class="form__fieldset">
-        <label class="form__label" for="name">Nome *
-        <input class="form__input" type="text" id="name" name="name" placeholder= "Nome" required> </label>
-        <label class="form__label" for="guests">Número de convidados *
-        <input class="form__input" type="number" id="guests" name="guests" placeholder="1-8" required></label>
-        <label class="form__label" for="datetime">Data e hora *
-        <input class="form__input" type="datetime-local" id="datetime" name="datetime" required></label>
-        <label class="form__label" for="email">Seu e-mail *
-        <input class="form__input" type="email" id="email" name="email" placeholder="email@email.com" required></label>
-        <button class="form__button" type="submit">Reservar uma mesa</button>
-        <label class="form__label form__label_checkbox" for="newsletter">
-        <input class="form__checkbox" type="checkbox" id="newsletter" name="newsletter" required>
-        Eu concordo com os termos de uso</label>
-    </fieldset>
-  </form>
+    <div class="reservation">
+      <h2 class="reservation__title">Reservar uma mesa</h2>
+      <form class="reservation__form form">
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="name">
+            Nome *
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nome"
+              required
+            />
+          </label>
+          <label class="form__label" for="guests">
+            Número de convidados *
+            <input
+              class="form__input"
+              type="number"
+              id="guests"
+              name="guests"
+              placeholder="1-8"
+              required
+            />
+          </label>
+          <label class="form__label" for="datetime">
+            Data e hora *
+            <input
+              class="form__input"
+              type="datetime-local"
+              id="datetime"
+              name="datetime"
+              required
+            />
+          </label>
+          <label class="form__label" for="email">
+            Seu e-mail *
+            <input
+              class="form__input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@email.com"
+              required
+            />
+          </label>
+          <button class="form__button" type="submit">Reservar uma mesa</button>
+          <label class="form__label form__label_checkbox" for="newsletter">
+            <input
+              class="form__checkbox"
+              type="checkbox"
+              id="newsletter"
+              name="newsletter"
+              required
+            />
+            Eu concordo com os termos de uso
+          </label>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
