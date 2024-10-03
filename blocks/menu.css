@@ -1,0 +1,42 @@
+.menu {
+  background-color: #fff;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.menu__cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.menu__title {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 24px 0;
+  max-width: 845px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle {
+  max-width: 845px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
